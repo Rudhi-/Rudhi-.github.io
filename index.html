@@ -2,35 +2,87 @@
 <html lang="en" class="no-js">
 
 <head>
-	<meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Anirudha Simha</title>
-	<meta name="description" content="Personal Website by Anirudha Simha" />
-	<link rel="shortcut icon" href="../favicon.ico">
-	<link rel="stylesheet" type="text/css" href="styles/normalize.css" />
-	<link rel="stylesheet" type="text/css" href="styles/space_background.css" />
-	<link rel="stylesheet" type="text/css" href="styles/component.css" />
-	<link href='http://fonts.googleapis.com/css?family=Raleway:200,400,800' rel='stylesheet' type='text/css'>
-	<!--[if IE]>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Anirudha Simha</title>
+    <meta name="description" content="Personal Website by Anirudha Simha" />
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" type="text/css" href="styles/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="styles/main.css" />
+    <link rel="stylesheet" type="text/css" href="styles/component.css" />
+    <link href='http://fonts.googleapis.com/css?family=Raleway:200,400,800' rel='stylesheet' type='text/css'>
+    <!--[if IE]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 </head>
 
-<body>
-    <!-- Displaying a cool space space background -->
-	<div class="container demo-1">
-		<div class="content">
-			<div id="large-header" class="large-header">
-				<canvas id="demo-canvas"></canvas>
-				<h1 class="main-title">Anirudha Simha</h1>
-			</div>
+<!-- Background color is a steel gray color -->
 
-		</div><!-- /container -->
-		<script src="scripts/TweenLite.min.js"></script>
-		<script src="scripts/EasePack.min.js"></script>
-		<script src="scripts/rAF.js"></script>
-		<script src="scripts/space_background.js"></script>
+<body bgcolor="#333">
+    <section id="intro">
+        <!-- Displaying a cool space space background -->
+        <div class="container demo-1">
+
+            <div class="content">
+                <div id="large-header" class="large-header">
+                    <div class="topnav">
+                        <a href="#about">About Me</a>
+                        <a href="#work">My Experiences</a>
+                        <a href="#skills">My Skills</a>
+                    </div>
+                    <canvas id="demo-canvas"></canvas>
+
+                    <h1 class="main-title">Anirudha Simha</h1>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me -->
+
+    <section id="about">
+        <h1 class="section-title">About</h1>
+        <div class="container section-content">
+            <!-- Quote that I belive in -->
+            <blockquote style="color: white; text-align: center;">
+                <h2 class="quotation">Innovation comes out of great human ingenuity and very personal passions.</h2>
+                <h3>— Megan Smith</h3>
+            </blockquote>
+            <p style="color: white;">
+                I've always believed that to create a truly great product or service you need two things, passion and hard work.
+            </p>
+            <p style="color: white;">
+                As a software engineer I have found that with these two attributes I have been able to learn so much and truly push myself to deliver high quality products.
+            </p>
+            <p style="color: white;">
+                Whether it has been through my studies at Virginia Tech, or my work at Capital One doing Android Mobile Development and now Full Stack Development on Chatbots with Machine Learning, I have found that my passion has kept me going and my desire to do better
+                and build a better product has helped to develop.
+            </p>
+            <p style="color: white;">
+                <strong>Current Focus</strong>:&nbsp;
+                <a>Machine Learning (ML)</a>&nbsp;//&nbsp;
+                <a>Natural Language Processing (NLP))</a>&nbsp;//&nbsp;
+                <a>AWS/Cloud</a>
+            </p>
+        </div>
+    </section>
+
+    <section id=" experience ">
+
+    </section>
+
+    <section id=" skills ">
+
+    </section>
+
+    <!-- /container -->
+    <script src=" scripts/TweenLite.min.js "></script>
+    <script src=" scripts/EasePack.min.js "></script>
+    <script src=" scripts/rAF.js "></script>
+    <script src=" scripts/animated_lines.js "></script>
+    <script src=" ./index.js "></script>
 </body>
 
 </html>
