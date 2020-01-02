@@ -131,17 +131,20 @@
 
 .work-card-image-container {
     display: flex;
-    vertical-align: middle;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
     margin-right: 10px;
+    margin-left: 10px;
     flex: 1
 }
 
 .work-card-details {
     display: flex;
-    justify-content: space-between;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
 .work-card-content {
-    flex: 10
+    flex: 4
 }
