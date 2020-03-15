@@ -1,150 +1,144 @@
 .large-header {
-    position: relative;
-    width: 100%;
-    background: #111;
-    overflow: hidden;
-    background-size: cover;
-    background-position: center center;
-    z-index: 1;
+  position: relative;
+  width: 100%;
+  background: #111;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;
+  z-index: 1;
 }
 
 .demo .large-header {
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg");
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg");
 }
 
 .main-title {
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    color: #F9F1E9;
-    text-align: center;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate3d(-50%, -50%, 0);
-    transform: translate3d(-50%, -50%, 0);
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  color: #f9f1e9;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
 }
 
 .demo .main-title {
-    text-transform: uppercase;
-    font-size: 4.2em;
-    letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 4.2em;
+  letter-spacing: 0.1em;
 }
 
 .main-title .thin {
-    font-weight: 200;
+  font-weight: 200;
 }
 
 @media only screen and (max-width: 768px) {
-    .demo .main-title {
-        font-size: 3em;
-    }
+  .demo .main-title {
+    font-size: 3em;
+  }
 }
-
 
 /* Add a black background color to the top navigation */
 
 .topnav {
-    /* background-color: #333; */
-    overflow: hidden;
-    float: right;
+  /* background-color: #333; */
+  overflow: hidden;
+  float: right;
 }
-
 
 /* Style the links inside the navigation bar */
 
 .topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
-
 
 /* Change the color of links on hover */
 
 .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+  background-color: #ddd;
+  color: black;
 }
-
 
 /* Add a color to the active/current link */
 
 .topnav a.active {
-    background-color: #4CAF50;
-    color: white;
+  background-color: #4caf50;
+  color: white;
 }
 
 .section-content {
-    padding: 1%;
-    margin-left: 10%;
-    margin-right: 10%;
-    font-size: 1.2em;
-    letter-spacing: 0.1em;
-    margin-top: 3%;
+  padding: 1%;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 1.2em;
+  letter-spacing: 0.1em;
+  margin-top: 3%;
 }
 
 .section-title {
-    background-color: #421C52;
-    padding: 2%;
-    color: white;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    margin: 0px;
-    padding-left: 3%;
+  background-color: #421c52;
+  padding: 2%;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 0px;
+  padding-left: 3%;
 }
 
 .card {
-    /* Add shadows to create the "card" effect */
-    display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
-    padding: 1%;
-    background-color: rgb(67, 22, 87);
-    color: white
+  /* Add shadows to create the "card" effect */
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding: 1%;
+  background-color: rgb(67, 22, 87);
+  color: white;
 }
-
 
 /* On mouse-over, add a deeper shadow */
 
 .card:hover {
-    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.4);
 }
-
 
 /* Add some padding inside the card container */
 
 .container {
-    padding: 2px 16px;
+  padding: 2px 16px;
 }
 
 .work-card-image {
-    height: auto;
-    max-width: 200px;
-    object-fit: contain;
-    padding: 5px;
+  height: auto;
+  max-width: 200px;
+  object-fit: contain;
+  padding: 5px;
 }
 
 .work-card-image-container {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-evenly;
-    margin-right: 10px;
-    margin-left: 10px;
-    flex: 1
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+  margin-right: 10px;
+  margin-left: 10px;
+  flex: 1;
 }
 
 .work-card-details {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .work-card-content {
-    flex: 4
+  flex: 4;
 }
