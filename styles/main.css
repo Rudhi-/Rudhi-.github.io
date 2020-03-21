@@ -151,11 +151,20 @@
 
 .skills-holder {
     text-align: center;
-    margin: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    flex-grow: 1;
+    /* margin: 10px; */
 }
 
 .skills-icon {
     width: 128px;
     height: 128px;
     margin-bottom: 10px;
+}
+
+.icons-container {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
 }
