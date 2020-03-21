@@ -157,5 +157,7 @@
 .skills-icon {
     max-width: 50%;
     max-height: 50%;
+    width: 50%;
+    height: 50%;
     margin-bottom: 10px;
 }
