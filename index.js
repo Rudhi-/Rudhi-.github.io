@@ -1,11 +1,17 @@
-// var canvas = document.querySelector('demo-canvas');
-// fitToContainer(canvas);
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
 
-// function fitToContainer(canvas) {
-//     // Make it visually fill the positioned parent
-//     canvas.style.width = '100%';
-//     canvas.style.height = '100%';
-//     // ...then set the internal size to match
-//     canvas.width = canvas.offsetWidth;
-//     canvas.height = canvas.offsetHeight;
-// }
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+    if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+    } else {
+        navbar.classList.remove("sticky");
+    }
+}
