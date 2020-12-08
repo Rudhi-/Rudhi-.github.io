@@ -137,6 +137,7 @@ body {
     transform: scale(1.05);
     opacity: 100%;
     z-index: 555555 !important;
+
 }
 
 
@@ -219,4 +220,28 @@ body {
     opacity: 10%;
     background: #421c52;
     border-radius: 10px;
+}
+
+.education {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row
+}
+
+/*For Mobile devices*/
+@media screen and (max-width: 480px) {
+    .education {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column
+    }
+
+    .card:hover {
+        box-shadow: 0 16px 32px 0 rgb(0, 0, 0);
+        transform: scale(1.05);
+        opacity: 100%;
+        z-index: 555555 !important;
+        margin-top: 15%;
+        margin-bottom: 15%;
+    }
 }
